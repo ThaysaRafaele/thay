@@ -1,0 +1,8 @@
+/* Variables for Dark Theme */
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --red-primary: #FF0000;
+    --red-secondary: #950101;
+    --red-tertiary: #3D0000;
+}

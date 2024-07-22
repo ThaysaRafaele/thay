@@ -1,21 +1,138 @@
 header {
-    background-color: var(--red-tertiary);
-    color: var(--white);
-    padding: 1rem 0;
-    text-align: center;
-  }
+  font-size: x-large;
+  background-color: var(--red-tertiary);
+  color: var(--white);
+  padding: 1rem 0;
+  text-align: center;
+}
 
-  nav ul {
-    list-style: none;
-    padding: 0;
+.bannerBkg {
+  width: 100%;
+}
+
+.banner {
+  width: 50%;
+  margin: 0px auto;
+  max-width: 1700px;
+  z-index: 99;
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+@keyframes joaninha {
+  0% {
+    transform: scale(1);
   }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 1rem;
+  60% {
+      transform: scale(1);
   }
-  
-  nav ul li a {
-    color: var(--white);
-    text-decoration: none;
+  75% {
+      transform: scale(1.08);
   }
+  90% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.ladybug1{
+  position: absolute;
+  width: 15%;
+  top: 40.34%;
+  left: 3.66%;
+  z-index: 107;
+}
+
+.ladybug2{
+  position: absolute;
+    width: 15%;
+    top: 40.34%;
+    left: 85.26%;
+    z-index: 109;
+}
+
+.joaninha{
+  width: 100%;
+  height: auto;
+  animation-name: joaninha;
+  -webkit-animation-name: joaninha;
+  animation-duration: 2.2s;
+  -webkit-animation-duration: 2.2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.bannerClock {
+  position: absolute;
+  width: 18%;
+  top: 8.65%;
+  left: 8.76%;
+  z-index: 110;
+}
+
+.bannerClock2 {
+  position: absolute;
+  width: 18%;
+  top: 8.65%;
+  left: 8.76%;
+  z-index: 111;
+}
+
+
+@keyframes rotate3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.rotate3{
+  animation-name: rotate3;
+  -webkit-animation-name: rotate3;
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.rotate4{
+  animation-name: rotate4;
+  -webkit-animation-name: rotate4;
+  animation-duration: 5.5s;
+  -webkit-animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}

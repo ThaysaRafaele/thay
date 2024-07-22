@@ -1,0 +1,86 @@
+h1 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.sobreBkg {
+    background-color: var(--black);
+}
+
+.sobreWrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0px auto;
+    position: relative;
+    padding-bottom: 280px;
+}
+
+.sobreLeft {
+    width: 40%;
+    float: left;
+    margin-right: 7%;
+    position: relative;
+    z-index: 100;
+    color: #ffffff;
+}
+
+.sobreLeft img {
+    width: 100%;
+}
+
+.sobreBody{
+    transform: rotate(1.4deg);
+    position: absolute;
+    top: 1%;
+    left: -1.9%;
+    z-index: 120;
+    width: 100%;
+}
+
+.sobreMim{
+    transform: rotate(-8deg);
+    position: absolute;
+    top: 11.5%;
+    left: 19.9%;
+    z-index: 102;
+    width: 75.6%;
+}
+
+
+@keyframes pescoco {
+    0% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+.pescoco {
+    animation-name: pescoco;
+    -webkit-animation-name: pescoco;
+    animation-duration: 3.5s;
+    -webkit-animation-duration: 3.5s;
+    transform-origin: 50% 90%;
+    -ms-transform-origin: 50% 90%;
+    -webkit-transform-origin: 50% 90%;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.sobreRight{
+    width: 40%;
+    float: right;
+    text-align: left;
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+.space {
+    width: 100%;
+    clear: both;
+}

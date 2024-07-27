@@ -1,0 +1,57 @@
+.profissionalBkg {
+    width: 100%;
+    /* background-color: var(--red-secondary); */
+    background-image: url(../../../public/Imagens/retangulo.png);
+    background-size: 50px 2000px;
+    background-position: center -11.5%;
+    margin-top: -180px;
+    background-repeat: repeat-x;
+}
+
+.profissional {
+    width: 100%;
+    background-image: url(../../../public/Imagens/swish_solid.png);
+    background-size: 100% 180px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.profissionalWrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    background: -webkit-radial-gradient(bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.profissionalMobile {
+    background-image: url(../../../public/Imagens/mão.png);
+    background-position: calc(100% + -50px) top;
+    background-repeat: no-repeat;
+}
+
+.profissionalLeft {
+    width: 54%;
+    padding: 180px 0px 160px 0px;
+    float: left;
+    margin-right: 7%;
+    position: relative;
+    z-index: 100;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .profissionalBkg {
+        background-size: 50px 2000px;
+        background-position: center -165px;
+        margin-top: -110px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profissionalBkg {
+        background-size: 50px 2000px;
+        background-position: center -11.5%;
+        margin-top: -130px;
+    }
+}

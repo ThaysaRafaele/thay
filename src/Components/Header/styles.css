@@ -1,13 +1,12 @@
-header {
+
+.bannerBkg {
+  width: 100%;
+
   font-size: x-large;
   background-color: var(--red-tertiary);
   color: var(--white);
   padding: 1rem 0;
   text-align: center;
-}
-
-.bannerBkg {
-  width: 100%;
 }
 
 .banner {

@@ -1,0 +1,131 @@
+.container{
+    width: 100%;
+}
+
+.portfolio {
+    width: 94%;
+    max-width: 1700px;
+    margin: 0px auto;
+    padding: 130px 0px 110px 0px;
+}
+
+.portfolioBox {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 20px 0px 20px 0px;
+}
+
+.portfolioBox img {
+    width: 82%;
+    padding-bottom: 0px;
+}
+
+a:link {
+    color: #313140;
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    color: #313140;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #313140;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+a:active {
+    color: #313140;
+    text-decoration: none;
+}
+
+#box {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#content {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+#box:hover > #content {
+    -webkit-transform: scale(1.08) rotate(6deg); 
+    transform: scale(1.08) rotate(6deg);
+    cursor:pointer;
+}
+
+.spaceTwo {
+    width: 100%;
+    clear: both;
+    display: none;
+}
+
+
+/* ------------------------------- media screen -------------------------------  */
+
+@media screen and (max-width: 1000px) {
+    .portfolio {
+        max-width: 850px;
+        padding: 85px 0px 65px 0px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio {
+        max-width: 1000px;
+        padding: 105px 0px 85px 0px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .portfolio {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .portfolioBox {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolioBox {
+        width: 33.33%;
+        font-size: 17px;
+        line-height: 21px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .portfolioBox img {
+        width: 82%;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolioBox {
+        width: 33.33%;
+        font-size: 15px;
+        line-height: 19px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .portfolioBox img {
+        width: 82%;
+        padding-bottom: 0px;
+    }
+}

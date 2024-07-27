@@ -10,7 +10,7 @@
 
 .profissional {
     width: 100%;
-    background-image: url(../../../public/Imagens/swish_solid.png);
+    background-image: url(../../../public/Imagens/waves/5.png);
     background-size: 100% 180px;
     background-position: center top;
     background-repeat: no-repeat;
@@ -25,8 +25,8 @@
 }
 
 .profissionalMobile {
-    background-image: url(../../../public/Imagens/mão.png);
-    background-position: calc(100% + -50px) top;
+    background-image: url(../../../public/Imagens/mão2.png);
+    background-position: calc(100% + -105px) top;
     background-repeat: no-repeat;
 }
 
@@ -39,6 +39,29 @@
     z-index: 100;
     color: #ffffff;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.75);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/* ------------------------------- media screen -------------------------------  */
 
 @media screen and (max-width: 1000px) {
     .profissionalBkg {
@@ -53,5 +76,111 @@
         background-size: 50px 2000px;
         background-position: center -11.5%;
         margin-top: -130px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profissional {
+        background-size: 1054px 110px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .profissional {
+        background-size: 1240px 130px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .profissional {
+        background-size: 1500px 180px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profissionalWrapper {
+        max-width: 770px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profissionalWrapper {
+        max-width: 900px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .profissionalWrapper {
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .profissionalMobile {
+        background-position: calc(100% + -10px) top;
+        background-size: 372px 633px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profissionalMobile {
+        background-position: calc(100% + -50px) top;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profissionalLeft {
+        width: 53%;
+        padding: 130px 0px 110px 0px;
+        margin-right: 6%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profissionalLeft {
+        width: 49%;
+        padding: 150px 0px 130px 0px;
+        margin-right: 6%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .profissionalLeft {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    h2 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .profissionalLeft img {
+        width: 40px;
+        margin-bottom: -5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profissionalLeft img {
+        width: 50px;
+        margin-bottom: -10px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .profissionalLeft img {
+        width: 50px;
+        margin-bottom: -10px;
     }
 }

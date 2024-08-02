@@ -9,9 +9,7 @@ h1 {
     max-width: 1400px;
     margin: 0px auto;
     position: relative;
-    /* background: rgb(255, 255, 255); */
     padding-bottom: 280px;
-    /* background: radial-gradient(circle, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 50%); */
 }
 
 .sobreLeft {
@@ -20,7 +18,7 @@ h1 {
     margin-right: 7%;
     position: relative;
     z-index: 100;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .sobreLeft img {
@@ -91,7 +89,7 @@ h1 {
 .githubIcon2 {
     width: 64px;
     margin: 0px 13px 0px 0px;
-    background-color: #f3b35f;
+    background-color: #8b8a8a;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border-radius: 30px;
@@ -121,7 +119,7 @@ h1 {
 .linkedinIcon2 {
     width: 64px;
     margin: 0px 13px 0px 0px;
-    background-color: #98B8F1;
+    background-color: #6291c6;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border-radius: 30px;
@@ -136,7 +134,7 @@ h1 {
 .instagramIcon2 {
     width: 64px;
     margin: 0px 13px 0px 0px;
-    background-color: #f3a6ad;
+    background-color: #ff6c6c;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border-radius: 30px;

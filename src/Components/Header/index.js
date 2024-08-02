@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 const Header = () => (
-  <div class="bannerBkg">
+  <div class="bannerBkg" id='home'>
     <div class="banner">
       {/* <h1>Thaysa Rafaele</h1> */}
       {/* <nav>

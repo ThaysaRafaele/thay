@@ -39,6 +39,16 @@ code {
   clear: both;
 }
 
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--white);
+  text-decoration: none;
+}
+
 /* ------------------------------- media screen -------------------------------  */
 
 @media screen and (max-width: 1400px) {

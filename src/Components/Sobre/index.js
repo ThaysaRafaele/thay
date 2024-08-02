@@ -3,7 +3,7 @@ import './styles.css';
 
 export function Sobre() {
     return(
-        <div class="sobreBkg">
+        <div class="sobreBkg" id='sobre'>
             <div class="sobreWrapper">
                 <div class="sobreLeft">
                     <img src="/Imagens/Avatar/me_bkg.png" alt="Thay Rafa"/>
@@ -30,13 +30,13 @@ export function Sobre() {
                             </div>
                         </a>
 
-                        <a href="https://www.pinterest.com/deniselchandler/_created" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/thaysarafaele/" target="_blank" rel="noreferrer">
                             <div class="instagramIcon2" id="hvr-bounce-in">
                                 <img id="content" src="/Imagens/ícones/4.png" alt="Instagram" />
                             </div>
                         </a>
 
-                        <a href="https://www.instagram.com/thaysarafaele/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/thaysa-lacerda-3a2612154/" target="_blank" rel="noreferrer">
                             <div class="linkedinIcon2" id="hvr-bounce-in">
                                 <img id="content" src="/Imagens/ícones/2.png" alt="Linkedin" />
                             </div>

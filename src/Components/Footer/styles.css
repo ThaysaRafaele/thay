@@ -1,9 +1,164 @@
-footer {
-    background-color: var(--red-tertiary);
-    color: var(--white);
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
+.footer {
+    background: var(--red-secondary) url(../../../public/Imagens/footer3.png);
+    background-position: center top;
+    background-size: 1540px 682px;
+    background-repeat: no-repeat;
     width: 100%;
-    bottom: 0;
+}
+
+.footerOnda {
+    width: 100%;
+    background-image: url(../../../public/Imagens/waves/5.png);
+    background-size: 100% 180px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin-top: -180px;
+}
+
+@keyframes detail {
+    0% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+.details {
+    height: 0px;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    bottom: 165px;
+}
+
+.imagemDetail{
+    animation-name: detail;
+    -webkit-animation-name: detail;
+    animation-duration: 3.5s;
+    -webkit-animation-duration: 3.5s;
+    transform-origin: 50% 90%;
+    -ms-transform-origin: 50% 90%;
+    -webkit-transform-origin: 50% 90%;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    left: 10%;
+    bottom: 40px;
+    position: relative;
+}
+
+.footerGradient {
+    padding: 170px 0px 290px 0px;
+    position: relative;
+    background: -webkit-radial-gradient(bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    background: -moz-radial-gradient(bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(to top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.footerWrapper {
+    width: 90%;
+    max-width: 1250px;
+    font-size: 29px;
+    line-height: 36px;
+    margin: 0px auto 0px auto;
+}
+
+.footerLeft {
+    width: 38%;
+    float: left;
+    text-align: center;
+}
+
+.footerLinks {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    left: 0px;
+    color: var(--white);
+}
+
+.footerLinks a:link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footerLinks a:hover {
+    color: var(--white);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--white);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.footerLinks a:active {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* ------------------------------- media screen -------------------------------  */
+
+@media screen and (max-width: 1200px) {
+    .footerOnda {
+        background-size: 1240px 130px;
+        height: 130px;
+        margin-top: -130px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .footerOnda {
+        background-size: 1500px 180px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerGradient {
+        padding: 135px 0px 210px 0px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .footerWrapper {
+        max-width: 1100px;
+        font-size: 26px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerWrapper {
+        width: 90%;
+        max-width: 1000px;
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerLeft {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerLinks {
+        font-size: 14px;
+        letter-spacing: 1px;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .footerLinks {
+        font-size: 15px;
+        bottom: 20px;
+    }
 }

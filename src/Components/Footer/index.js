@@ -5,7 +5,7 @@ export function Footer() {
         <>
             <div class="footerOnda"></div>
 
-            <div class="details"> 
+            <div class="details" id='contato'> 
                 <img class="imagemDetail" src="/Imagens/details-footer.png" alt="" />
             </div>
             
@@ -21,13 +21,13 @@ export function Footer() {
                         <div class="space"></div>
                     </div>
                     <div class="footerLinks">
-                        <a href="#home">HOME</a> 
+                        <a href="#home">Home</a> 
                         &nbsp;•&nbsp; 
-                        <a href="#sobre">SOBRE</a> 
+                        <a href="#sobre">Sobre</a> 
                         &nbsp;•&nbsp; 
                         <a href="#projetos">Projetos</a> 
                         &nbsp;•&nbsp; 
-                        <a href="mailto:thaysarafaele@gmail.com?subject=Thaysa Rafaele Contact Form">CONTATO</a>
+                        <a href="mailto:thaysarafaele@gmail.com?subject=Thaysa Rafaele Contact Form">Contato</a>
                         &nbsp;•&nbsp; ©2024 Thaysa Rafaele
                     </div>
                 </div>

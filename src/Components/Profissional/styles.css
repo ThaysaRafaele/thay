@@ -26,7 +26,7 @@
 
 .profissionalMobile {
     background-image: url(../../../public/Imagens/mão2.png);
-    background-position: calc(100% + -105px) top;
+    background-position: calc(100% + -100px) top;
     background-repeat: no-repeat;
 }
 
@@ -38,6 +38,18 @@
     position: relative;
     z-index: 100;
     color: #ffffff;
+    text-align: left;    
+}
+
+.profissionalLeft h2{
+    font-size: x-large;
+    line-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @keyframes pulse {
@@ -52,13 +64,24 @@
     }
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 130%;
+}
+
 .pulse {
+    width: 50px;
     animation-name: pulse;
     -webkit-animation-name: pulse;
     animation-duration: 1.5s;
     -webkit-animation-duration: 1.5s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
+    margin: 2%;
 }
 
 /* ------------------------------- media screen -------------------------------  */
@@ -113,14 +136,14 @@
 }
 @media screen and (max-width: 1000px) {
     .profissionalMobile {
-        background-position: calc(100% + -10px) top;
+        background-position: calc(100% + -5px) top;
         background-size: 372px 633px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .profissionalMobile {
-        background-position: calc(100% + -50px) top;
+        background-position: calc(100% + -45px) top;
     }
 }
 

@@ -1,5 +1,5 @@
 .footer {
-    background: var(--red-secondary) url(../../../public/Imagens/footer3.png);
+    background: var(--red-tertiary) url(../../../public/Imagens/footer4.png);
     background-position: center top;
     background-size: 1540px 682px;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 .footerOnda {
     width: 100%;
-    background-image: url(../../../public/Imagens/waves/5.png);
+    background-image: url(../../../public/Imagens/waves/wave6.png);
     background-size: 100% 180px;
     background-position: center top;
     background-repeat: no-repeat;

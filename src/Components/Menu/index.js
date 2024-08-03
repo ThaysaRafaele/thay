@@ -20,7 +20,7 @@ export function Menu() {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#projetos">Portfolio</a></li>
-                        <li><a href="mailto:thaysarafaele@gmail.com?subject=Thaysa Rafaele Contact Form">CONTATO</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </div>
                 </div>
             </div>

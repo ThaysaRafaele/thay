@@ -1,0 +1,116 @@
+.menuCirculo {
+    z-index: 999999999;
+    padding: 20px 21px 20px 21px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -khtml-border-radius: 50px;
+    background-color: #f3a6ad;
+    position: fixed;
+    top: 19px;
+    right: 18px;
+    width: 41px;
+    height: 43px;
+}
+
+.menu-wrap {
+    position: fixed;
+    z-index: 9999999999;
+    background-color: #f3a6ad;
+    -webkit-transition: width 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s;
+    width: 0;
+    height: 0;
+    font-size: 1.5em;
+    top: 0px;
+    right: 0px;
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    -moz-border-bottom-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+
+.menu {
+    height: 100%;
+    opacity: 0;
+    font-size: 0.65em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.link-list {
+    font-size: 35px;
+    line-height: 50px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+.link-list li {
+    list-style: none;
+}
+
+.link-list a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuHolder {
+    z-index: 9999999999;
+    position: fixed;
+    top: 38px;
+    right: 39px;
+}
+
+.c-hamburger--htx.is-active {
+    background-color: transparent;
+}
+
+.c-hamburger--htx {
+    background-color: transparent;
+}
+.c-hamburger {
+    z-index: 9999999999;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 41px;
+    height: 43px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.c-hamburger--htx.is-active span {
+    background: none;
+}
+
+.c-hamburger--htx span {
+    -webkit-transition: background 0s 0.3s;
+    transition: background 0s 0.3s;
+}
+
+.c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    height: 6px;
+    background: #FFFFFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+}

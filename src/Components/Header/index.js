@@ -4,15 +4,6 @@ import './styles.css';
 const Header = () => (
   <div class="bannerBkg" id='home'>
     <div class="banner">
-      {/* <h1>Thaysa Rafaele</h1> */}
-      {/* <nav>
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Sobre">Sobre</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contato">Contato</a></li>
-        </ul>
-      </nav> */}
       <img className='tela' src="/Imagens/tela.png" alt="" />
 
       {/* Joaninhas */}

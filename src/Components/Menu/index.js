@@ -1,29 +1,40 @@
-
+import { useState } from 'react';
 import './styles.css';
 
 export function Menu() {
+    const [isActive, setIsActive] = useState(false);
+
+    const toggleMenu = () => {
+        setIsActive(!isActive);
+        const htmlElement = document.documentElement;
+        htmlElement.classList.toggle('show-menu');
+    };
+
     return (
         <>
-           <div class="menuCirculo"></div>
+            <div className="menuCircle"></div>
 
-            <div class="menu-wrap">
-                <div class="menu">
-                    <div class="link-list">
-                        <li><a href="https://denisechandler.com">Home</a></li>
-                        <li><a href="https://denisechandler.com/#portfolio">Portfolio</a></li>
-                        <li><a href="https://denisechandler.com/fonts">Store</a></li>
-                        <li><a href="mailto:deniselchandler@gmail.com?subject=DeniseChandler.com Contact Form">Contact</a></li>
+            <div className={`menu-wrap ${isActive ? 'show-menu' : ''}`}>
+                <div className="menu">
+                    <div className="link-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Portfolio</a></li>
+                        <li><a href="mailto:thaysarafaele@gmail.com?subject=Thaysa Rafaele Contact Form">CONTATO</a></li>
                     </div>
                 </div>
             </div>
 
-            <div class="menuHolder">
-                <button class="c-hamburger c-hamburger--htx" id="open-button">
+            <div className="menuHolder">
+                <button
+                    className={`c-hamburger c-hamburger--htx ${isActive ? 'is-active' : ''}`}
+                    id="open-button"
+                    onClick={toggleMenu}
+                >
                     <span>toggle menu</span>
                 </button>
             </div>
                 
-            <div class="space"></div>
         </>
     );
 }
